@@ -1,11 +1,15 @@
-import CreateNew from "./pages/CreateNew"
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
-    <main className="container mx-auto">
-     <CreateNew/>
+    <>
+      <Navbar/>
+    <main className="app-container">
+   <Outlet/>
     </main>
+    </>
   )
 }
 

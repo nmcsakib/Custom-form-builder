@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: "Poppins" !important;
+  font-wieght: 500;
+}
+.app-container {
+  @apply max-w-[1280px] w-full mx-auto px-3;
+}
